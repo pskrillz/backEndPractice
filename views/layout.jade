@@ -4,4 +4,17 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+  div.toolbar 
+    ul.navbar 
+      li
+        a(href="/")
+          button(type="button") Home 
+
+      li 
+        a(href="/about")
+          button(type="button") About
+
+      li
+        a(href='/faq')
+          button(type='button') FAQ
     block content
